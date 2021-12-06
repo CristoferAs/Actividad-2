@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.iconos-arriba {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 30%;
+    align-content: space-between;
+}
+
+i {
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+
+.linea-debajo {
+    margin-left: 5%;
+    margin-right: 30%;
+}
+
+.tabla {
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+}
+
+.tablaDos {
+    display: flex;
+}
+
+hr {
+    width: 70%;
+}
+
+td,
+th {
+    border: 6px solid #dddddd;
+    width: 500px;
+    height: auto;
+}
+
+.credit-card-div span {
+    padding-top: 10px;
+}
+
+.credit-card-div img {
+    padding-top: 30px;
+}
+
+.credit-card-div .small-font {
+    font-size: 9px;
+}
+
+.credit-card-div .pad-adjust {
+    padding-top: 10px;
+}
+
+footer {
+    max-width: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/949/561/310/cyberpunk-2077-samurai-hd-wallpaper-preview.jpg);
+    border: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
