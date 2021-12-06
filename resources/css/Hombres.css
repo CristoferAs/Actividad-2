@@ -1,8 +1,11 @@
+.cajaFeliz {
+    display: flex;
+}
+
 footer {
-    max-width: 10000px;
-    /*min-height: 250px;*/
-    background: #000;
-    margin: 0 auto;
+    max-width: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/949/561/310/cyberpunk-2077-samurai-hd-wallpaper-preview.jpg);
+    ;
     border: 0 0 20px 20px;
     color: #fff;
     text-align: center;
