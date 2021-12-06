@@ -29,13 +29,13 @@ i {
 }
 
 .tabla {
-    display: flex;
+    display: inline;
     justify-content: right;
     margin-right: 5%;
 }
 
 .tablaDos {
-    display: flex;
+    display: inline;
     text-align: center;
 }
 
