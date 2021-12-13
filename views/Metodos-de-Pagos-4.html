@@ -119,37 +119,19 @@
                     <div class="caja" style="width: 700px;margin-top: 5%;margin-left: 10%;">
                         <p class="formulario">
                             <label for="departamento">Departamento<span style="margin-left: 100px;"></span></label>
-                            <select name="departamento" id="departamento" style="max-width: 2000px;">
-                                <option value="departamento">Selecionar</option>
-                                <option value="departamento">Lima</option>
-                                <option value="departamento">Callao</option>
-                                <option value="departamento">Junin</option>
-                                <option value="departamento">Ica</option>
-                            </select>
+                            <label for="departamento">Lima</label>
                         </p>
                         <hr>
                         <br>
                         <p class="formulario">
-                            <label for="departamento">Provincia<span style="margin-left: 130px;"></span></label>
-                            <select name="departamento" id="departamento" style="max-width: 2000px;">
-                                <option value="departamento">Selecionar</option>
-                                <option value="departamento">Lima</option>
-                                <option value="departamento">Callao</option>
-                                <option value="departamento">Canta</option>
-                                <option value="departamento">Huaral</option>
-                            </select>
+                            <label for="provincia">Provincia<span style="margin-left: 130px;"></span></label>
+                            <label for="provincia">Lima</label>
                         </p>
                         <hr>
                         <br>
                         <p class="formulario">
-                            <label for="departamento">Distrito<span style="margin-left: 150px;"></span></label>
-                            <select name="departamento" id="departamento" style="max-width: 2000px;">
-                                <option value="departamento">Selecionar</option>
-                                <option value="departamento">Lima</option>
-                                <option value="departamento">Acon</option>
-                                <option value="departamento">Ate</option>
-                                <option value="departamento">Breña</option>
-                            </select>
+                            <label for="distrito">Distrito<span style="margin-left: 150px;"></span></label>
+                            <label for="distrito">Lima</label>
                         </p>
                 </th>
             </tr>
@@ -157,30 +139,26 @@
                 <th>
                     <div class="caja" style="width: 700px;margin-top: 5%;margin-left: 10%;">
                         <p class="formulario">
-                            <label for="departamento">Número<span style="margin-left: 250px;"></span></label>
-                            <input type="text">
-                            </select>
+                            <label for="numero">Número<span style="margin-left: 250px;"></span></label>
+                            <label for="numero">****</label>
                         </p>
                         <hr>
                         <br>
                         <p class="formulario">
-                            <label for="departamento">Piso o Apartamento (ej: 2A)<span style="margin-left: 100px;"></span></label>
-                            <input type="text" placeholder="Opcional">
-                            </select>
+                            <label for="piso">Piso o Apartamento (ej: 2A)<span style="margin-left: 100px;"></span></label>
+                            <label for="piso">2A</label>
                         </p>
                         <hr>
                         <br>
                         <p class="formulario">
-                            <label for="departamento">Punto o calle cerca<span style="margin-left: 150px;"></span></label>
-                            <input type="text">
-                            </select>
+                            <label for="calle cerca">Punto o calle cerca<span style="margin-left: 150px;"></span></label>
+                            <label for="calle">Av. *******</label>
                         </p>
                         <hr>
                         <br>
                         <p class="formulario">
-                            <label for="departamento">Nombre del remitente<span style="margin-left: 130px;"></span></label>
-                            <input type="text" placeholder="Opcional">
-                            </select>
+                            <label for="nombreRemitente">Nombre del remitente<span style="margin-left: 130px;"></span></label>
+                            <label for="nombreRemitente">Paquito Panfilo</label>
                         </p>
                         <br><br>
                 </th>
@@ -201,9 +179,13 @@
                         <p>Total.....................................................S/139.90</p>
                         <br><br>
                         <div style="justify-content: center; display: flex;">
-                            <div style="border: solid 2px; width: 100px; background-color: crimson; justify-content: center;">
-                                <a href="./Metodos-de-Pagos-4.html" style="color: black;">Continuar</a>
-                            </div>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="T5B2DD8C2NLHY">
+                                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
                         </div>
                         <br>
                         <br>
